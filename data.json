@@ -4,8 +4,8 @@
       {
         "id": 0,
         "project-name": "A Random Quote Generator",
-        "description": "",
-        "technologies": [],
+        "description": "A random quote generator is an app that displays random quotes by famous architects each time the button 'show another quote' is clicked. An app also automatically refreshes quotes after 20s and chooses random background color.",
+        "technologies": ["Vanilla JavaScript"],
         "live-link": "",
         "github-link": "",
         "image-urls":""
@@ -13,8 +13,8 @@
       {
         "id": 1,
         "project-name": "List Pagination And Filtering",
-        "description": "",
-        "technologies": [],
+        "description": "In this project I enhance the web page with pagination technique. List Filter and Pagination project uses pagination technique to show maximum ten students at the page. It creates a navigation to let the user see the rest of the student by clicking on links inside the navigation. It has a search bar that allows to search the list of student, shows ones that match, adds pagination if there are more than ten results, adjust in real time when you change the words you search and throws an error message when no match were found.",
+        "technologies": ["Vanilla JavaScript"],
         "live-link": "",
         "github-link": "",
         "image-urls":""
@@ -23,8 +23,8 @@
       {
         "id": 2,
         "project-name": "Interactive Form",
-        "description": "",
-        "technologies": [],
+        "description": "Interactive Form Project is an interactive registration form for tech conference. In this project I'm using jQuery library. Form is using some customise behaviours, such as hiding unnecessary input fields or unnecessary select options. All of the validations for this form are powered by javaScript and provide helpful notes when the users data are invalid. I'm using Progressive Enhancement technique to make this form work, even if the user has enabled javaScript.\n\nWhen user visit the page it automatically focus on a first name input. Then there is a job section, when the user selects other job option, the input for other job appears. In the t-shirt section form allows you to select only t-shirt colour that is possible in your selected t-shirt theme. Until theme is selected you can't select the colour. In activities section you have to choose at least one activity, form automatically disabled activities that are scheduled at the same time as your already selected activity. The last section is payment. As a default it is set to show Credit Card as payment option. You can change payment option to PyPal or Bitcoin and you will see payment information for chosen payment option. When you click submit button and some information are invalid you will see error messages. When you try to submit an empty form you will see an error message for all required fields.",
+        "technologies": ["jQuery"],
         "live-link": "",
         "github-link": "",
         "image-urls":""
@@ -33,8 +33,8 @@
       {
         "id": 3,
         "project-name": "OOP Game Show App",
-        "description": "",
-        "technologies": [],
+        "description": "OOP Game Show App is a browser based game in which player has to guess movie quotes. Every time the game runs it generates new movie quote and hides it under tiles. When player clicks a keyboard letter (in window or physical) the program checks if the letter exists in the phrase. If the letter exists in the phrase, it is unveiled if not player loses one \"life\". All keyboard buttons can be clicked only once, one click unveils all matching letters in a hidden phrase. The game continues until all letters in the phrase are guessed or there are no \"lives\" left.\n",
+        "technologies": ["Vanilla JavaScript "],
         "live-link": "",
         "github-link": "",
         "image-urls":""
@@ -43,7 +43,7 @@
       {
         "id": 4,
         "project-name": "Public API Request",
-        "description": "",
+        "description": "Public API Request is an app for a fictional company called Awesome Startup. It grabs information for 12 randomly generated employees and use the data to build 12 user cards. App requests JSON object from the API https://randomuser.me, and parse the data to generate our users cards (it takes user image, full name, email and location). After clicking on employee card modal window opens. Modal window shows employees detailed information like full address and birthday.",
         "technologies": [],
         "live-link": "",
         "github-link": "",

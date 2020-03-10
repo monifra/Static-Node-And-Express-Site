@@ -34,7 +34,7 @@
         "id": 3,
         "project-name": "OOP Game Show App",
         "description": "OOP Game Show App is a browser based game in which player has to guess movie quotes. Every time the game runs it generates new movie quote and hides it under tiles. When player clicks a keyboard letter (in window or physical) the program checks if the letter exists in the phrase. If the letter exists in the phrase, it is unveiled if not player loses one \"life\". All keyboard buttons can be clicked only once, one click unveils all matching letters in a hidden phrase. The game continues until all letters in the phrase are guessed or there are no \"lives\" left.\n",
-        "technologies": ["Vanilla JavaScript "],
+        "technologies": ["Vanilla JavaScript", "Object Oriented Programming"],
         "live-link": "",
         "github-link": "",
         "image-urls":""
@@ -44,7 +44,7 @@
         "id": 4,
         "project-name": "Public API Request",
         "description": "Public API Request is an app for a fictional company called Awesome Startup. It grabs information for 12 randomly generated employees and use the data to build 12 user cards. App requests JSON object from the API https://randomuser.me, and parse the data to generate our users cards (it takes user image, full name, email and location). After clicking on employee card modal window opens. Modal window shows employees detailed information like full address and birthday.",
-        "technologies": [],
+        "technologies": ["Vanilla Javascript", "Public API Request"],
         "live-link": "",
         "github-link": "",
         "image-urls":""

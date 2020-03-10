@@ -2,12 +2,52 @@
   "data": {
     "projects":[
       {
+        "id": 0,
+        "project-name": "A Random Quote Generator",
+        "description": "",
+        "technologies": [],
+        "live-link": "",
+        "github-link": "",
+        "image-urls":""
+      },
+      {
+        "id": 1,
+        "project-name": "List Pagination And Filtering",
+        "description": "",
+        "technologies": [],
+        "live-link": "",
+        "github-link": "",
+        "image-urls":""
 
       },
       {
+        "id": 2,
+        "project-name": "Interactive Form",
+        "description": "",
+        "technologies": [],
+        "live-link": "",
+        "github-link": "",
+        "image-urls":""
 
       },
       {
+        "id": 3,
+        "project-name": "OOP Game Show App",
+        "description": "",
+        "technologies": [],
+        "live-link": "",
+        "github-link": "",
+        "image-urls":""
+
+      },
+      {
+        "id": 4,
+        "project-name": "Public API Request",
+        "description": "",
+        "technologies": [],
+        "live-link": "",
+        "github-link": "",
+        "image-urls":""
 
       }
     ]

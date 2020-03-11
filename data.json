@@ -8,7 +8,7 @@
         "technologies": ["Vanilla JavaScript"],
         "live-link": "https://monifra.github.io/A-Random-Quote-Generator/",
         "github-link": "https://github.com/monifra/A-Random-Quote-Generator",
-        "image-urls":""
+        "image-urls":[""]
       },
       {
         "id": 1,
@@ -17,7 +17,7 @@
         "technologies": ["Vanilla JavaScript"],
         "live-link": "https://monifra.github.io/List_Pagination_And_Filtering",
         "github-link": "https://github.com/monifra/List_Pagination_And_Filtering",
-        "image-urls":""
+        "image-urls":[""]
 
       },
       {
@@ -27,7 +27,7 @@
         "technologies": ["jQuery"],
         "live-link": " https://monifra.github.io/Interactive-Form/",
         "github-link": "https://github.com/monifra/Interactive-Form",
-        "image-urls":""
+        "image-urls":[""]
 
       },
       {
@@ -37,17 +37,17 @@
         "technologies": ["Vanilla JavaScript", "Object Oriented Programming"],
         "live-link": "https://monifra.github.io/OOP-Game-Show-App/",
         "github-link": "https://github.com/monifra/OOP-Game-Show-App",
-        "image-urls":""
+        "image-urls":[""]
 
       },
       {
         "id": 4,
         "project-name": "Public API Request",
         "description": "Public API Request is an app for a fictional company called Awesome Startup. It grabs information for 12 randomly generated employees and use the data to build 12 user cards. App requests JSON object from the API https://randomuser.me, and parse the data to generate our users cards (it takes user image, full name, email and location). After clicking on employee card modal window opens. Modal window shows employees detailed information like full address and birthday.",
-        "technologies": ["Vanilla Javascript", "Public API Request"],
+        "technologies": ["Vanilla Javascript", "Public API Requests"],
         "live-link": "https://monifra.github.io/Public-API-Request",
         "github-link": "https://github.com/monifra/Public-API-Request",
-        "image-urls":""
+        "image-urls":[""]
 
       }
     ]

@@ -3,12 +3,12 @@
     "projects":[
       {
         "id": 0,
-        "project-name": "A Random Quote Generator",
+        "project-name": "What Would An Architect Say",
         "description": "A random quote generator is an app that displays random quotes by famous architects each time the button 'show another quote' is clicked. An app also automatically refreshes quotes after 20s and chooses random background color.",
         "technologies": ["Vanilla JavaScript"],
         "live-link": "https://monifra.github.io/A-Random-Quote-Generator/",
         "github-link": "https://github.com/monifra/A-Random-Quote-Generator",
-        "image-urls":[""]
+        "image-urls":["public/images/Architect-1-square.jpg","public/images/Architect-1.jpg","public/images/Architect-2.jpg","public/images/Architect-3.jpg","public/images/Architect-4.jpg"]
       },
       {
         "id": 1,
@@ -17,7 +17,7 @@
         "technologies": ["Vanilla JavaScript"],
         "live-link": "https://monifra.github.io/List_Pagination_And_Filtering",
         "github-link": "https://github.com/monifra/List_Pagination_And_Filtering",
-        "image-urls":[""]
+        "image-urls":["public/images/Pagination-1-square.jpg","public/images/Pagination-1.jpg","public/images/Pagination-2.jpg","public/images/Pagination-3.jpg"]
 
       },
       {
@@ -27,7 +27,7 @@
         "technologies": ["jQuery"],
         "live-link": " https://monifra.github.io/Interactive-Form/",
         "github-link": "https://github.com/monifra/Interactive-Form",
-        "image-urls":[""]
+        "image-urls":["public/images/Form-1-square.jpg","public/images/Form-1.jpg","public/images/Form-2.jpg","public/images/Form-3.jpg"]
 
       },
       {
@@ -37,7 +37,7 @@
         "technologies": ["Vanilla JavaScript", "Object Oriented Programming"],
         "live-link": "https://monifra.github.io/OOP-Game-Show-App/",
         "github-link": "https://github.com/monifra/OOP-Game-Show-App",
-        "image-urls":[""]
+        "image-urls":["public/images/Game-1-square.jpg","public/images/Game-1.jpg","public/images/Game-2.jpg","public/images/Game-3.jpg","public/images/Game-4.jpg"]
 
       },
       {
@@ -47,8 +47,7 @@
         "technologies": ["Vanilla Javascript", "Public API Requests"],
         "live-link": "https://monifra.github.io/Public-API-Request",
         "github-link": "https://github.com/monifra/Public-API-Request",
-        "image-urls":[""]
-
+        "image-urls":["public/images/Api-1-square.jpg","public/images/Api-1.jpg","public/images/Api-2.jpg","public/images/Api-3.jpg"]
       }
     ]
   }

@@ -2,8 +2,8 @@ const express = require('express');
 const app = express();
 
 //require JSON data
-// const data = require('data.json');
-// const projects = data.projects;
+
+const {projects} = require('./data.json');
 
 //Serve static files
 app.use('/static',express.static('public'));
@@ -13,7 +13,7 @@ app.set('view engine', 'pug');
 
 //An index route
 app.get('/', (req,res)=> {
-    res.render('index');
+    res.render('index', {projects});
 });
 //An about route
 app.get('/about', (req,res)=> {
@@ -21,8 +21,10 @@ app.get('/about', (req,res)=> {
 });
 
 //Dynamic projects route
-app.get('/project', (req,res)=> {
-    res.render('project');
+app.get('/project/:id', (req,res,next)=> {
+    const projectId = req.params.id;
+    const project = projects.find( ({ id }) => id === +projectId );
+    res.render('project', {project});
 });
 
 //Starting a server on port 3000

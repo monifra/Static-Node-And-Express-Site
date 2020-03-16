@@ -7,11 +7,11 @@
  My portfolio site has a landing page, about page where I talk more about myself and series of project pages 
  to show my work and experience.<br><br>       
  
- Changes I've made in CSS:
-    - different fonts,
-    - buttons: different border radius, slightly different hover, different background color for visited links,
-    - color of text in few places,
-    - small changes in hover colors for links,
-    - ease-out color transitions on links hover 
+ Changes I've made in CSS:<br>
+    - different fonts,<br>
+    - buttons: different border radius, slightly different hover, different background color for visited links,<br>
+    - color of text in few places,<br>
+    - small changes in hover colors for links,<br>
+    - ease-out color transitions on links hover,<br>
     - borders of the thumbnail elements - different radius
       

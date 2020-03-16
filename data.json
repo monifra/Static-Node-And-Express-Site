@@ -13,7 +13,7 @@
       {
         "id": 1,
         "project_name": "Public API Request",
-        "description": "Public API Request is an app for a fictional company called Awesome Startup. It grabs information for 12 randomly generated employees and use the data to build 12 user cards. App requests JSON object from the API https://randomuser.me, and parse the data to generate our users cards (it takes user image, full name, email and location). After clicking on employee card modal window opens. Modal window shows employees detailed information like full address and birthday.",
+        "description": "Public API Request is an app for a fictional company called Awesome Startup. It grabs information for 12 randomly generated employees and use the data to build 12 user cards. App requests JSON object from the API https://randomuser.me. Then parse the data to generate our users cards (it takes user image, full name, email and location). After clicking on employee card modal window opens. Modal window shows employees detailed information like full address and birthday.",
         "technologies": ["Vanilla Javascript", "Public API Requests", "HTML", "CSS"],
         "live_link": "https://monifra.github.io/Public-API-Request",
         "github_link": "https://github.com/monifra/Public-API-Request",
@@ -22,7 +22,7 @@
       {
         "id": 2,
         "project_name": "Full Stack Conf Form",
-        "description": "Interactive Form Project is an interactive registration form for tech conference. In this project I'm using jQuery library. Form is using some customise behaviours, such as hiding unnecessary input fields or unnecessary select options. All of the validations for this form are powered by javaScript and provide helpful notes when the users data are invalid. I'm using Progressive Enhancement technique to make this form work, even if the user has enabled javaScript.\n\nWhen user visit the page it automatically focus on a first name input. Then there is a job section, when the user selects other job option, the input for other job appears. In the t-shirt section form allows you to select only t-shirt colour that is possible in your selected t-shirt theme. Until theme is selected you can't select the colour. In activities section you have to choose at least one activity, form automatically disabled activities that are scheduled at the same time as your already selected activity. The last section is payment. As a default it is set to show Credit Card as payment option. You can change payment option to PyPal or Bitcoin and you will see payment information for chosen payment option. When you click submit button and some information are invalid you will see error messages. When you try to submit an empty form you will see an error message for all required fields.",
+        "description": "Full Stack Conf Form is an interactive registration form for tech conference. Form uses customise behaviours, such as hiding unnecessary input fields or select options. All of the validations for this form are powered by javaScript and provide helpful notes when the users data are invalid. I'm using Progressive Enhancement technique to make this form work, even if the user has enabled JavaScript.\n\nWhen user visit the page it automatically focus on a first name input. In job section, when the user selects other job option, the input for other job appears. In the t-shirt section form only allows to select t-shirt colour that is possible in selected t-shirt theme. Until theme is selected the colour can't be chosen. In activities section at least one activity have to be selected. Form automatically disables activities that are scheduled at the same time as already selected activity. The last section is payment. As a default it is set to show Credit Card as payment option. Payment option can be changed to PyPal or Bitcoin. When submit button is clicked, while there are invalid information error messages will appear. If an empty form is submitted error messages for all required fields will be shown.",
         "technologies": ["jQuery", "JavaScript", "HTML", "CSS"],
         "live_link": " https://monifra.github.io/Interactive-Form/",
         "github_link": "https://github.com/monifra/Interactive-Form",
@@ -41,7 +41,7 @@
       {
         "id": 4,
         "project_name": "What Would An Architect Say",
-        "description": "A random quote generator is an app that displays random quotes by famous architects each time the button 'show another quote' is clicked. An app also automatically refreshes quotes after 20s and chooses random background color.",
+        "description": "What Would An Architect Say is an app that displays random quotes by famous architects each time the button 'show another quote' is clicked. An app also automatically refreshes quotes after 20s and chooses random background color.",
         "technologies": ["Vanilla JavaScript", "HTML", "CSS"],
         "live_link": "https://monifra.github.io/A-Random-Quote-Generator/",
         "github_link": "https://github.com/monifra/A-Random-Quote-Generator",

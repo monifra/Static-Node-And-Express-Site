@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
 
 h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+  font-family: 'Fira Sans', sans-serif;
 }
 
-  h5{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  h5,h6{
+    font-family: 'Work Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
@@ -18,8 +20,11 @@ h1,h2,h3,h4,h5,p{
   }
 
   p{
-    font-size: 15px;
+    font-size: 17px;
     color: #666;
+  }
+  li{
+    font-family: 'Work Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
 
 .round{
@@ -31,15 +36,17 @@ h1,h2,h3,h4,h5,p{
 }
 
 .button{
-  background-color: #333;
+  background-color: #111;
+  border-radius: 3px;
 }
 
 .button:hover{
-  background-color: #111;
+  background-color: #444;
 }
 
 a{
-  color: #333;
+  color: #666;
+  transition: color 0.3s ease-out;
 }
 
 a:hover{
@@ -64,22 +71,23 @@ a:hover{
 }
 
   .portfolio-me p{
-    font-size: 14px;
+    font-size: 15px;
     color: #999;
   }
 
   .portfolio-me a{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Work Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 600;
     color: #555;
-    font-size: 13px;
+    font-size: 14px;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
+    transition: color 0.3s ease-out;
   }
 
   .portfolio-me a:hover{
-    color: #999;
+    color: rgb(252,230,225);
   }
 
 .portfolio-breadcrumb{
@@ -89,7 +97,7 @@ a:hover{
 }
 
  .portfolio-breadcrumb a{
-   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   font-family: 'Work Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
    font-weight: 600;
    font-size: 13px;
    letter-spacing: 2.5px;
@@ -126,6 +134,12 @@ a:hover{
 
     .portfolio-index .cell h5{
       letter-spacing: 1px;
+      color: #666;
+      transition: color 0.3s ease-out;
+    }
+    .portfolio-index .cell h5:hover{
+      color: #111;
+
     }
 
 .portfolio-meta{
@@ -133,6 +147,7 @@ a:hover{
 }
 
   .portfolio-meta .button{
+    font-family: 'Work Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     margin-bottom: 5px;
   }
 
@@ -141,10 +156,25 @@ a:hover{
 }
 
 .portfolio-project li{
-  font-size: 13px;
+  font-size: 14px;
   color: #444;
 }
 
 .portfolio-bio{
     line-height: 25px;
 }
+
+.pink{
+  color: rgb(252,230,225);
+}
+.pinker{
+  color: rgb(250,159,195);
+}
+
+.main-h1{
+  font-family: 'Work Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.button{
+  color: rgb(252,230,225);
+}
+

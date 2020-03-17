@@ -28,7 +28,9 @@ app.get('/project/:id', (req, res, next)=> {
         const project = projects.find( ({ id }) => id === +projectId );
         res.render('project', {project}); //renderer choosen project page
     }else{ //if choosen project id doesn't exist
-        res.redirect('/'); //redirect to main page
+        let err = new Error('Project Page Not Found'); //create 404 status error
+        err.statusCode = 404;
+        next(err);
     }
 });
 

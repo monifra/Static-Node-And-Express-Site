@@ -12,6 +12,9 @@
     "url": "git+https://github.com/monifra/Static-Node-And-Express-Site.git"
   },
   "keywords": [],
+  "engines": {
+    "node": "12.13.0";
+  },
   "author": "",
   "license": "ISC",
   "bugs": {

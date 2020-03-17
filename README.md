@@ -15,3 +15,4 @@
     - ease-out color transitions on links hover,<br>
     - borders of the thumbnail elements - different radius
       
+Live site on: https://monika-frankowska.herokuapp.com/

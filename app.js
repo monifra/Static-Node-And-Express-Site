@@ -42,6 +42,7 @@ app.get('*', function(req, res, next) { //for any not existing rout
 });
 app.use((err, req, res, next)=> {
     res.locals.error = err;
+    console.log('Error: Something went wrong');
     res.render('error'); //render error page
 } );
 

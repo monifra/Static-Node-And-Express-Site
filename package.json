@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/monifra/Static-Node-And-Express-Site#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "pug": "^2.0.4"
   }
 }
